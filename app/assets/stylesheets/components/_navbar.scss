@@ -1,12 +1,54 @@
-.navbar-lewagon {
+/* Main navbar */
+.main-navbar {
+  background: transparent;
+  transition: all 0.3s ease;
+  height: 230px;
+  width: 100%;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
   justify-content: space-between;
-  background: white;
+  position: absolute;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+.navbar-sticky {
+  position: sticky;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.cafe-logo {
+  width: 190px;
+  position: relative;
+  top: 12px;
+}
+
+.logo-text {
+  color: $yellow;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Right section */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  bottom: 55px;
+  right: 20px;
+}
+
+/* Basic navbar item */
+.navbar-item {
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+/* Navbar link */
+.navbar-link {
+  color: $yellow;
+  font-size: 14px;
+}
+.navbar-link:hover {
+  color: #f4e1c6;
+  text-decoration: none;
 }

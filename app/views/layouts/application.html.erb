@@ -10,16 +10,10 @@
     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
   </head>
   <body>
-
-    <h1>
-      <img src="assets/images/cafe_logo_black.png" alt="Café logo">
-    </h1>
-
+    <%= render 'shared/navbar' %>
     <%= yield %>
-
     <%= javascript_include_tag 'application' %>
     <%= javascript_pack_tag 'application' %>
 
-    <p>My footer</p>
   </body>
 </html>
