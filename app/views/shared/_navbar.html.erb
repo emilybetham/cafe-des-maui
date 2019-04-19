@@ -10,12 +10,12 @@
     <!-- Right Navigation -->
     <div class="navbar-right hidden-xs hidden-sm">
 
-      <a href="" class="navbar-item navbar-link">home</a>
-      <a href="" class="navbar-item navbar-link">menu</a>
-      <a href="" class="navbar-item navbar-link">our story</a>
-      <a href="" class="navbar-item navbar-link">live music</a>
-      <a href="" class="navbar-item navbar-link">contact</a>
-
+      <!-- <a href="" class="navbar-item navbar-link">home</a> -->
+      <%= link_to "home", home_path, :class => "navbar-item navbar-link"%>
+      <%= link_to "menu", menu_path, :class => "navbar-item navbar-link"%>
+      <%= link_to "our story", our_story_path, :class => "navbar-item navbar-link"%>
+      <%= link_to "live music", live_music_path, :class => "navbar-item navbar-link"%>
+      <%= link_to "contact", contact_path, :class => "navbar-item navbar-link"%>
     </div>
   </div>
 </div>
