@@ -1,0 +1,30 @@
+#our-story-content {
+  position: relative;
+}
+
+
+#story-text {
+  font-size: 20px !important;
+}
+
+.resto-links {
+  position: absolute;
+  top: 260px;
+  left: 241px;
+}
+
+.btn-resto-links {
+  color: white;
+  padding: 10px 32px;
+  border-radius: 7px;
+  font-weight: 500;
+  font-size: 20px;
+  background: $yellow;
+  transition: background 0.3s ease;
+}
+.btn-resto-links:hover {
+  opacity: 0.7;
+  text-decoration: none;
+  color: white;
+}
+
