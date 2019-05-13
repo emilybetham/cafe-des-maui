@@ -4,7 +4,7 @@
   <div class="main-navbar">
     <!-- Logo -->
     <div class="logo">
-      <%= image_tag 'cafe_logo_white.png', :class => "cafe-logo"%>
+      <%= link_to image_tag('cafe_logo_white.png'), home_path, :class => "cafe-logo", data: { content_name: "home" }%>
       <p class="logo-text">maui, hawai'i</p>
     </div>
     <!-- Right Navigation -->
