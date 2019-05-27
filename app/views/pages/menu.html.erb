@@ -2,30 +2,46 @@
   <div id="menu-tabs">
     <ul class="list-inline tabs-underlined">
       <li class="tabs" >
-        <%= link_to 'food', menu_path, class: "tab-underlined active", data: { content_name: "food" }%>
+        <%= link_to 'food', menu_path, id: "food-button", class: "tab-underlined active", data: { content_name: "food" }%>
       </li>
       <li class="tabs">
-        <%= link_to 'drinks', menu_path, class: "tab-underlined", data: { content_name: "drinks" }%>
+        <%= link_to 'drinks', menu_path, id: "drinks-button", class: "tab-underlined", data: { content_name: "drinks" }%>
       </li>
     </ul>
   </div>
 </div>
 
-
-
-<div class= "container-menu">
+<div class= "container-menu menu-scroll">
   <div id= "food" class= "row tab-content active">
-    <div class="col-md-8 col-md-offset-2">
-       <h2 class="dash-h2">food</h2>
-        <p>MENUUUUU</p>
-    </div>
+    <!-- <div class="col-md-8 col-md-offset-2"> -->
+        <div id="appetizers">
+          <h5>Appetizers</h5>
+          <p> <b>Vegetarian Mediterranean Platter for two</b> $15.75<br>
+            <i>Hummus, olives, cucumber raita, feta, carrot salad, roast Mediterranean vegetables, tomatoes, pesto, pita bread</i></p>
+        </div>
+
+
+        <div id="savory-crepes">
+          <h5>Savory Crêpes</h5>
+          <p class=sub-header-italics>All served with salad greens, lemon tahini dressing or balsamic herb vinaigrette & sour cream:</p>
+          <p>Mozzarella, tomato, pesto $10.50<br>
+             Spinach and feta cheese $11.95<br>
+             Ham and aged cheddar cheese $11.50<br>
+             Italian lentil & tomato stew, pesto, mozzarella $11.95<br>
+             Mediterranean vegetables, feta, pesto $12.50<br>
+             Chicken, avocado, mozzarella, tomato & caesar dressing $12.50<br>
+             Shrimp, bacon, chipotle aioli, avocado & furikake, aged cheddar, tomato $12.95<br>
+             Pastrami, sauerkraut, Swiss, Russian dressing $12.95<br>
+          </p>
+          <p class=sub-header-italics>Add $1 to substitute any breakfast, savory or sweet crêpe with a buckwheat & chia crêpe (gluten free)*</p>
+        </div>
+    <!-- </div> -->
   </div>
 
-  <div id= "drinks" class= "row tab-content">
-    <div class="col-md-8 col-md-offset-2">
-       <h2 class="dash-h2">drinks</h2>
-        <p>draaaank</p>
-    </div>
+  <div id= "drinks" class= "row tab-content hidden">
+    <!-- <div class="col-md-8 col-md-offset-2"> -->
+        <p>draaaank sicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequ</p>
+    <!-- </div> -->
   </div>
 </div>
 <!--   <div id="food-menu-scroll">

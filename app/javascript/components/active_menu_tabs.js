@@ -12,7 +12,6 @@ const activeMenuTabs = () => {
       document.getElementById(activeTab.dataset.contentName).classList.add('active')
 
     });
-
   });
 }
 
