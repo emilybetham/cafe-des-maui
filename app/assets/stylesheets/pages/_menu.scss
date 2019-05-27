@@ -42,10 +42,38 @@
   border-bottom: 3px solid #555555;
 }
 
-#food-menu-scroll {
+.menu-scroll {
   border: 1px solid black;
-  width:  250px;
-  height: 100px;
   overflow-y: scroll;
   margin-bottom: 12px;
+  margin-top: 10px;
+}
+
+.container-menu {
+  width: 800px;
+  height: 600px;
+  position: absolute;
+  top: 282px;
+  left: 20%;
+  background: #F1EFEA;
+  mix-blend-mode: hard-light;
+  border-radius: 25px;
+  padding: 30px;
+}
+
+.container-menu h2 p {
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+
+.sub-header-italics {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
 }
